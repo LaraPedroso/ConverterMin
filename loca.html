@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="modelo.css">
+        <title>Locadora</title>
+<style>
+    div {
+        border: 50px;;
+        text-align: center;
+        padding: 10px 50px;
+        height: 50%;
+      
+ }
+.forms{
+    margin-right: auto;
+    font-family: Cursive;
+
+}
+.Titulo{
+    font-family: Cursive;
+    color:#fcfcfc;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    margin-top: 5%;
+}
+
+body{
+   
+    background-color: rgb(41, 90, 155);
+    border:3px #5983f7 solid;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.2);
+     width: 700px;
+     height: 550px;
+     margin :auto;
+     flex:1;
+    background-color: rgb(145, 191, 252);
+    
+
+}
+
+</style>
+
+    </head>
+
+    <body>
+    <div class="Titulo">
+        <h1> Video Locadora</h1>
+    </div>
+
+    <div class="forms">
+        <p>
+            Titulo do Filme:
+            <input type="text" id= "inTitulo">
+        </p>
+       
+        <p>
+            Duração (Min):
+            <input type="text" id="inDuracao">
+        </p>
+
+        <P class="botao">
+            <input type="submit" value="converter em horas e minutos" id="btConverter">
+        </P>
+
+
+        <p id="outTitulo"></p>
+        <p id="outResposta"></p>
+    </div>
+        <script src="js/converter.js"></script>
+    </body>
+</html>
